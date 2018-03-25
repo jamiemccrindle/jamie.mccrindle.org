@@ -12,6 +12,7 @@ export default {
   }),
   inlineCss: true,
   extractCssChunks: true,
+  // bundleAnalyzer: true,
   getRoutes: async () => {
     const posts = [
       {

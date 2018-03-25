@@ -8,7 +8,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "serve": "serve dist -p 3000",
-    "deploy": "yarn run build && ./scripts/deploy.bash jamie.mccrindle.org"    
+    "deploy": "yarn run build && ./scripts/deploy.bash jamie.mccrindle.org"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -19,8 +19,8 @@
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
     "react-router": "^4.2.0",
-    "react-static": "^5.6.1",
-    "react-syntax-highlighter": "^7.0.2"
+    "react-syntax-highlighter": "^7.0.2",
+    "react-static": "^5.6.1"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
