@@ -1,0 +1,12 @@
+<RoutingRules>
+<RoutingRule><Condition><KeyPrefixEquals>2013/01/anatomy-of-kotlin-unit-test.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/anatomy-of-kotlin-unit-test</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/01/exploring-kotlin-standard-library-part-1.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/exploring-kotlin-standard-library-part-1</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/01/a-functional-iterate-for-kotlin.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/a-functional-iterate-for-kotlin</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/01/exploring-kotlin-standard-library-part-2.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/exploring-kotlin-standard-library-part-2</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/01/callbacks-poor-mans-yield.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/callbacks-poor-mans-yield</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/02/exploring-kotlin-standard-library-part-3.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/exploring-kotlin-standard-library-part-3</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/07/installing-oracle-java-7-using-chef.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/installing-oracle-java-7-using-chef</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2013/07/jetty-elb-and-x-forwarded-proto.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/jetty-elb-and-x-forwarded-proto</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2014/07/docker-ansible-jenkins-and-vagrant.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/docker-ansible-jenkins-and-vagrant</ReplaceKeyWith></Redirect></RoutingRule>
+<RoutingRule><Condition><KeyPrefixEquals>2015/04/dockerception-how-to-have-docker-build.html</KeyPrefixEquals></Condition><Redirect><ReplaceKeyWith>posts/dockerception-how-to-have-docker-build</ReplaceKeyWith></Redirect></RoutingRule>
+</RoutingRules>

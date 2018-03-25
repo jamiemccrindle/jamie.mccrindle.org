@@ -16,43 +16,43 @@ export default {
   getRoutes: async () => {
     const posts = [
       {
-        path: '/2013/01/anatomy-of-kotlin-unit-test.html',
+        path: '/posts/anatomy-of-kotlin-unit-test.html',
         component: 'src/posts/201301-AnatomyOfAKotlinUnitTest.tsx',
       },
       {
-        path: '/2013/01/exploring-kotlin-standard-library-part-1.html',
+        path: '/posts/exploring-kotlin-standard-library-part-1',
         component: 'src/posts/201301-ExploringKotlinStandardLibraryPart1.tsx',
       },
       {
-        path: '/2013/01/a-functional-iterate-for-kotlin.html',
+        path: '/posts/a-functional-iterate-for-kotlin',
         component: 'src/posts/201301-AFunctionalIterateForKotlin.tsx',
       },
       {
-        path: '/2013/01/exploring-kotlin-standard-library-part-2.html',
+        path: '/posts/exploring-kotlin-standard-library-part-2',
         component: 'src/posts/201301-ExploringKotlinStandardLibraryPart2.tsx',
       },
       {
-        path: '/2013/01/callbacks-poor-mans-yield.html',
+        path: '/posts/callbacks-poor-mans-yield',
         component: 'src/posts/201301-CallbacksInsteadOfGeneratorsKotlin.tsx',
       },
       {
-        path: '/2013/02/exploring-kotlin-standard-library-part-3.html',
+        path: '/posts/exploring-kotlin-standard-library-part-3',
         component: 'src/posts/201302-ExploringKotlinStandardLibraryPart3.tsx',
       },
       {
-        path: '/2013/07/installing-oracle-java-7-using-chef.html',
+        path: '/posts/installing-oracle-java-7-using-chef',
         component: 'src/posts/201307-InstallingOracleJava7UsingChef',
       },
       {
-        path: '/2013/07/jetty-elb-and-x-forwarded-proto.html',
+        path: '/posts/jetty-elb-and-x-forwarded-proto',
         component: 'src/posts/201307-JettyTheELBAndXForwardedProto.tsx',
       },
       {
-        path: '/2014/07/docker-ansible-jenkins-and-vagrant.html',
+        path: '/posts/docker-ansible-jenkins-and-vagrant',
         component: 'src/posts/201407-DockerAnsibleJenkinsAndVagrant.tsx',
       },
       {
-        path: '/2015/04/dockerception-how-to-have-docker-build.html',
+        path: '/posts/dockerception-how-to-have-docker-build',
         component: 'src/posts/201504-DockerceptionHowToHaveADockerBuildYourDockers.tsx',
       },
     ]
