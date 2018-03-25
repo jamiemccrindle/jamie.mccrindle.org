@@ -92,7 +92,7 @@ const MeDiv = glamorous.div({
 
 const MeH1 = glamorous.h1({
   textShadow: '0 0 20px white',
-  '@media(max-width: 480px)': {
+  '@media(max-width: 768px)': {
     fontSize: 60,
     textShadow: '0 0 10px white',
   },

@@ -15,12 +15,17 @@ registerLanguage('java', java);
 
 import 'normalize.css/normalize.css';
 
-css.global('html, body', {
+css.global('html', {
+  minHeight: '100vh',
+});
+
+css.global('body', {
   fontFamily: 'BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif',
   fontWeight: 300,
   fontSize: 16,
   margin: 0,
   padding: 0,
+  height: '100%',
 });
 
 const App = () => (

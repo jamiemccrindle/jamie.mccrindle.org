@@ -19,7 +19,7 @@ export class RollingTextEffect extends React.Component<RollingTextEffectProps, R
 
     state = {
         messageIndex: 0,
-        message: ' '
+        message: undefined
     } as RollingTextEffectState
 
     generateRandomString = (length: number) => {
@@ -123,7 +123,7 @@ export class RollingTextEffect extends React.Component<RollingTextEffectProps, R
     render() {
         const { message } = this.state;
         return (
-            <div>{message}</div>
+            <div>{message || this.props.messages[0]}</div>
         )
     }
 };

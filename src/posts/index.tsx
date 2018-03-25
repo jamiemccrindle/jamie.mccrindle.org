@@ -15,9 +15,11 @@ export const PostDiv = glamorous.div({
 });
 
 export const PostArticle = glamorous.article({
-    maxWidth: 740,
-    paddingLeft: 20,
-    paddingRight: 20,
+    flex: 1,
+    '@media(max-width: 768px)': {
+        maxWidth: '90vw',
+    },
+    maxWidth: 760,
 });
 
 export const CodeDiv = glamorous.pre({
