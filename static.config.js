@@ -5,10 +5,13 @@ const typescriptWebpackPaths = require('./webpack.config.js')
 
 export default {
   entry: path.join(__dirname, 'src', 'index.tsx'),
-  siteRoot: 'https://jamie.mccrindle.org',
+  // siteRoot: 'https://jamie.mccrindle.org',
+  siteRoot: 'http://jamie.mccrindle.org.s3-website-eu-west-1.amazonaws.com',
   getSiteData: () => ({
     title: 'Programming things',
   }),
+  inlineCss: true,
+  extractCssChunks: true,
   getRoutes: async () => {
     const posts = [
       {
