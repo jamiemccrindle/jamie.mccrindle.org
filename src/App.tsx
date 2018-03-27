@@ -1,9 +1,10 @@
 import React from 'react';
-import { Router } from 'react-static';
+import { Router, withRouter, RouteComponentProps } from 'react-static';
 import { hot } from 'react-hot-loader';
 import Routes from 'react-static-routes';
 import { css } from 'glamor'
 import { registerLanguage } from "react-syntax-highlighter/light";
+import ReactGA from 'react-ga';
 
 const kotlin = require('react-syntax-highlighter/languages/hljs/kotlin').default;
 const bash = require('react-syntax-highlighter/languages/hljs/bash').default;
@@ -28,9 +29,38 @@ css.global('body', {
   height: '100%',
 });
 
+if (typeof window !== 'undefined') {
+  ReactGA.initialize(process.env.REACT_STATIC_ENV === 'production' ? 'UA-37847298-1' : 'UA-37847298-3');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}
+
+class Tracking extends React.Component<RouteComponentProps<any>> {
+
+  unsubcribe: () => void;
+
+  componentDidMount() {
+    this.unsubcribe = this.props.history.listen(l => {
+      ReactGA.pageview(l.pathname + l.search);
+    });
+  }
+
+  componentWillUnmount() {
+    if (this.unsubcribe) this.unsubcribe();
+  }
+
+  render() {
+    return this.props.children;
+  }
+
+}
+
+const TrackingWithRouting = withRouter(Tracking);
+
 const App = () => (
   <Router>
-    <Routes />
+    <TrackingWithRouting>
+      <Routes />
+    </TrackingWithRouting>
   </Router>
 )
 
