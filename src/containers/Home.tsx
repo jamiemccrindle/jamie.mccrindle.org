@@ -139,8 +139,10 @@ export default withSiteData(() => (
               <RollingTextEffect
                 messages={[
                   'Developer',
+                  'Contributor',
+                  'Facilitator',
+                  'Co-Founder',
                   'CTO',
-                  'Founder',
                 ]}
               />
             </MeH1>
