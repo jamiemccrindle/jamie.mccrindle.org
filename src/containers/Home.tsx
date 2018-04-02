@@ -74,10 +74,6 @@ const NavLi = glamorous.li({
   }
 });
 
-const ActiveNavLi = glamorous(NavLi)({
-  fontSize: '2rem',
-});
-
 const MeAndLinksDiv = glamorous.div({
   flex: 1,
   display: 'flex',
