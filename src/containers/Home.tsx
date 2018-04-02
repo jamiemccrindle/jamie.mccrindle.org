@@ -93,10 +93,10 @@ const MeDiv = glamorous.div({
 const MeH1 = glamorous.h1({
   textShadow: '0 0 20px white',
   '@media(max-width: 768px)': {
-    fontSize: 60,
+    fontSize: 40,
     textShadow: '0 0 10px white',
   },
-  fontSize: 120,
+  fontSize: 90,
   color: 'white',
   fontWeight: 100,
   fontFamily: 'Consolas, Monaco, Menlo, "Lucida Console", monospace',
