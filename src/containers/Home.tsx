@@ -1,7 +1,7 @@
 import React from 'react';
 import { withSiteData, Link } from 'react-static';
 
-import backgroundMe from '../images/background-me.jpg';
+import backgroundMe from '../images/background-me-2.0.jpg';
 import glamorous from 'glamorous';
 import { RollingTextEffect } from '../components/RollingTextEffect';
 
